@@ -429,7 +429,7 @@ export class AppService {
         });
         setTimeout(function() {
             DataStore.term[id]["term"].open(document.getElementById('term-' + id));
-            DataStore.term[id]["term"].write('\x1b[31mWelcome to Jumpserver!\x1b[m\r\n');
+            DataStore.term[id]["term"].write('\x1b[31mWelcome to Kuick Bastion Web!\x1b[m\r\n');
         }, 0);
         
 
