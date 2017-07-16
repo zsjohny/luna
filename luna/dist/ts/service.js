@@ -363,7 +363,7 @@ var AppService = (function () {
         });
         setTimeout(function () {
             exports.DataStore.term[id]["term"].open(document.getElementById('term-' + id));
-            exports.DataStore.term[id]["term"].write('\x1b[31mWelcome to Jumpserver!\x1b[m\r\n');
+            exports.DataStore.term[id]["term"].write('\x1b[31mWelcome to Kuick Bastion Web!\x1b[m\r\n');
         }, 0);
         socket.on('connect', function () {
             socket.emit('machine', assetData);
